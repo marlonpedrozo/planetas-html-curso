@@ -1,0 +1,168 @@
+/* Resetando algumas margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4a261;
+}
+
+/* Ajustando o conteúdo da página para não ficar embaixo do menu fixo */
+main {
+    padding-top: 60px; /* Espaço para o menu fixo */
+    margin: 80px;
+}
+
+/* Estilo para o conteúdo das seções */
+ 
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ .informacoes {
+    margin: auto;
+    text-align: center;
+}
+ 
+h1 {
+    
+    font-size: 2.5rem;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    color: #444;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Estilo para a lista de planetas */
+.planetas-lista {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.planetas-lista li {
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.planetas-lista li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.planetas-lista li:hover {
+    background-color: #f4a261;
+    transform: scale(1.05);
+}
+
+.planetas-lista li a:hover {
+    color: #fff;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/*estilizando links*/
+
+#planetas h1{
+     margin: auto;
+     color: #070707;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+.imagem-planeta{
+ margin: auto;
+ max-width:500px;
+}
+#planetas img{
+    box-shadow: 10px 10px 30px #444;
+}
+
+.descricao-planeta{
+    margin: auto;
+    max-width: 800px;
+}
+.descricao-planeta h2{
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+    margin: 20px;
+}
+.descricao-planeta p, ul{
+    text-align: justify;
+    margin: 20px;
+}
+
+.media{
+    margin: 50px auto;
+    text-align: center;
+ 
+}
